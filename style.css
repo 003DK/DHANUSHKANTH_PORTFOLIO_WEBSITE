@@ -8,7 +8,8 @@ color:white;
 }
 
 
-/* HERO SECTION */
+
+/* HERO */
 
 .hero{
 
@@ -42,22 +43,22 @@ color:#cbd5f5;
 
 .tech{
 
-margin-top:25px;
+margin-top:30px;
 
 }
 
 .tech span{
 
 margin:8px;
-padding:6px 16px;
+padding:8px 18px;
 border:1px solid #38bdf8;
 border-radius:20px;
-font-size:14px;
 
 }
 
 
-/* CODING STATS SECTION */
+
+/* CODING SUMMARY */
 
 .coding-summary{
 
@@ -73,36 +74,85 @@ margin-bottom:40px;
 
 }
 
-.stats-container{
 
-display:flex;
-justify-content:center;
-gap:30px;
-flex-wrap:wrap;
+
+/* STATS GRID */
+
+.stats-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+max-width:900px;
+margin:auto;
 
 }
 
-.stat-card{
+.stat{
 
 background:#1e293b;
-padding:30px;
-width:200px;
+padding:25px;
 border-radius:10px;
-box-shadow:0 10px 20px rgba(0,0,0,0.4);
 
 }
 
-.stat-card h3{
+.stat h3{
 
 font-size:32px;
 color:#38bdf8;
-margin:0;
 
 }
 
-.stat-card p{
 
-margin-top:10px;
+
+/* SKILLS */
+
+.skills-section{
+
+margin-top:60px;
+
+}
+
+.skills-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+gap:15px;
+max-width:900px;
+margin:auto;
+
+}
+
+.skill{
+
+background:#1e293b;
+padding:15px;
+border-radius:8px;
+
+}
+
+
+
+/* AWARDS */
+
+.awards{
+
+margin-top:60px;
+
+}
+
+.awards ul{
+
+list-style:none;
+padding:0;
+max-width:600px;
+margin:auto;
+
+}
+
+.awards li{
+
+padding:8px;
 color:#cbd5f5;
 
 }
