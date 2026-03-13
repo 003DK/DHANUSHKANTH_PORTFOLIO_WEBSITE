@@ -65,4 +65,35 @@ color:black;
 text-decoration:none;
 border-radius:5px;
 font-weight:bold;
+
+}
+.coding-summary{
+text-align:center;
+padding:60px 20px;
+}
+
+.stats-card{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.stat{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+width:160px;
+}
+
+.stat h3{
+font-size:28px;
+color:#38bdf8;
+margin:0;
+}
+
+.stat p{
+margin-top:5px;
+color:#cbd5f5;
+font-size:14px;
 }
